@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    padding-top: 216px;
+    padding-right: 100px;
+    padding-bottom: 196px;
+    text-align: right;
+}
+.header-title{
+    margin-bottom: 34px;
+    margin-left: 700px;
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.header-para{
+    margin-bottom: 32px;
+    margin-left: 800px;
+    font-size: smaller;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+/* Header-button */
+.btn-primary{
+   margin-bottom: 50px;
+   font-weight: 600;
+   padding: 5px;
+   font-size: 20px;
+   border: 0;
+   border-radius: 5px;
+   width: 160px;
+   height: 64px;
+   color: #005FAC;
+}
+.myfailure{
+    display: flex;
+    margin-top: 101px;
+    margin-left: 206px;
+    
+}
+.myfailure-title{
+    margin-bottom: 10px;
+    margin-top: 160px;
+    margin-left: 35px;
+    margin-right: 250px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.myfailure-para{
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: small;
+    margin-left: 35px;
+}
+.failure-list{
+    padding-bottom: 2opx;
+}
+.failure-list ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(images/icons/checkmark.png);
+    font-size: small;
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.myplan{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+.myplan-subsec{
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+.myplan-subsec h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.myplan-subsec p{
+    text-align: center;
+    color: #737272;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.positive-mindset{
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    padding: 50px;
+    margin: 10px 200px;
+    border-radius: 8px;
+    height: 100px;
+    background-blend-mode: normal;
+    margin-bottom: 100px;
+}
+.positive-mindset h2{
+    color: #FFFFFF;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 50px;
+    padding: 15px;
+}
+.btn-call{
+    margin-right: 390px;
+    margin-left: 65px;
+    padding: 5px;
+    color: #005FAC;
+    font-weight: 600;
+}
+/* Footer */
+.footer{
+    display: flex;
+    background-color: black;
+    gap: 80px;
+    padding: 200px 200px;
+}
+/* Future */
+.future{
+    color: #FFFFFF;
+}
+.future h2{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.future p{
+    margin-bottom: 15px;
+    padding-right: 120px;
+    font-size: small;
+}
+/* Subscribe */
+.subscribe{
+    color: #FFFFFF;
+}
+.subscribe h2{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.email{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: black;
+    color: #F3F3F3;
+    border-radius: 5px;
+    border-style: 1px;
+    border-color: #FFFFFF;
+    font-size: small;
+    width: 200px;
+}
+.btn-subs{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #005FAC;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: small;
+}
